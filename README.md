@@ -16,3 +16,11 @@ Použité :
 
 L9965C (monitor prúdu, náboja a izolácie HV packu – battery junction box) sa pripojí do tej istej VIF reťaze.
 Testovanie článkov prebieha na Samsung Liíon 18650, neskôr možno Grepow LiPo
+
+
+Work in Progress kompetencie
+Harmady : Základná konfigurácia,wake
+
+Mally: Preportovanie STSW-L9965FW 
+
+Pusztai: GUI, logovanie
