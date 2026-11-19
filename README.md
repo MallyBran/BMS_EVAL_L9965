@@ -7,6 +7,7 @@ Cieľom projektu je oživiť BMS čipset L9965 od STMicroelectronics s riadiacou
 - **NUCLEO-H723ZG** – riadiace MCU, SPI master.
 - **EVL9965T (L9965T)** – izolovaný SPI transceiver (dual-die, dvojkanálový, twisted-pair VIF). Most medzi logickou a izolovanou batériovou doménou.
 - **EVL9965A (L9965A)** – 18-článkový battery monitor s balansovaním (400 mA/článok) + load board na emuláciu článkov pred zapojením skutočného 18S packu.
+- **EVL9965C (L9965C)88 - Coulomb counting,presny shunt, integracia prudu v case pre presne meranie SoC a SoH
 
 Komunikácia beží v režime VIF daisy chain: **MCU → SPI → L9965T → izolovaný twisted pair -> L9965A**. Firmvér vychádza z balíka STSW-L9965FW od ST, ktorý má referenčnú implementáciu pre STM32L476, preto ho portujeme na H723.
 
